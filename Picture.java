@@ -63,12 +63,15 @@ public class Picture
         sun.moveVertical(80);
         sun.makeVisible();
         sun.slowMoveVertical(-140);
-        
-        
-        
-        
+             
     }
-
+    /**
+     * El sol bajará imitando un atardecer
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(320);
+    }
     /**
      * Change this picture to black/white display
      */
